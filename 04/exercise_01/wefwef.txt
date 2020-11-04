@@ -1,0 +1,424 @@
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~
+$ cd Desktop
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop ((v0.5))
+$ git clone https://github.com/web-camp/01-html-css-assignment-ShouYousou.git
+Cloning into '01-html-css-assignment-ShouYousou'...
+remote: Repository not found.
+fatal: repository 'https://github.com/web-camp/01-html-css-assignment-ShouYousou.git/' not found
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop ((v0.5))
+$ git clone https://github.com/web-camp/01-html-css-assignment-chappy-mano.git
+Cloning into '01-html-css-assignment-chappy-mano'...
+remote: Repository not found.
+fatal: repository 'https://github.com/web-camp/01-html-css-assignment-chappy-mano.git/' not found
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop ((v0.5))
+$ ls
+ 01-html-css-assignment-chappy-mano-master/   EPSON/                      p/                               'Tera Term.lnk'*            大学院　書類関係/
+ 1581485980000.jpg                            etc/                       'px4_ug(1).pdf'                    tesi.pdf                   普段の日常.xlsx
+ 1-9.html                                     follow/                     run-console.bat                   tesi2.pdf                  無題.png
+ ２週報.png                                   home/                       run-console_px4_checkout.bat      toolchain/                '竜輝 - Chrome.lnk'*
+ ３週報.png                                   LICENSE                     run-console_px4_fw_ver.bat        vagrant/                  '竜輝 (17A2127 山田) - Chrome.lnk'*
+ APM/                                         marvelmind_SW_2020_04_19/   run-console_Simulink.bat         'Visual Studio Code.lnk'*
+ appveyor.yml                                'matlab pixhawk'/            run-console_Simulink_screen.bat   work2/
+'Dashboard (V6.210).lnk'*                     matlab.mat                  run-console_SimulinkBackGnd.bat   work3/
+ desktop.ini                                 'Microsoft Teams.lnk'*       style.css                         Zoom.lnk*
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop ((v0.5))
+$ cd 01-html-css-assignment-chappy-mano-master
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master ((v0.5))
+$ git init
+Initialized empty Git repository in C:/Users/yamadaryuki/Desktop/01-html-css-assignment-chappy-mano-master/.git/
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ ls -a
+./  ../  .git/  .github/  .gitignore  02/  03/  04/  05/  06/  07/  08/  09/  10/  continuous_exercise/  flex/  README.md
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git add .
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git commit -m "first-ii"
+[master (root-commit) 639421b] first-ii
+ 73 files changed, 2876 insertions(+)
+ create mode 100644 .github/ISSUE_TEMPLATE/issue_template.md
+ create mode 100644 .github/PULL_REQUEST_TEMPLATE/pull_request_template.md
+ create mode 100644 .github/auto-merge.yml
+ create mode 100644 .github/settings.yml
+ create mode 100644 .github/workflows/test.yml
+ create mode 100644 .gitignore
+ create mode 100644 02/README.md
+ create mode 100644 02/exercise_01/.gitkeep
+ create mode 100644 02/exercise_01_answer/index.html
+ create mode 100644 02/exercise_01_answer/style.css
+ create mode 100644 03/README.md
+ create mode 100644 03/exercise_01/.gitkeep
+ create mode 100644 03/exercise_01_answer/box.css
+ create mode 100644 03/exercise_01_answer/box.html
+ create mode 100644 04/README.md
+ create mode 100644 04/exercise_01/.gitkeep
+ create mode 100644 04/exercise_01_answer/index.html
+ create mode 100644 04/exercise_01_answer/style.css
+ create mode 100644 05/README.md
+ create mode 100644 05/exercise_01/.gitkeep
+ create mode 100644 05/exercise_01_answer/index.html
+ create mode 100644 05/exercise_01_answer/style.css
+ create mode 100644 06/README.md
+ create mode 100644 06/exercise_01/.gitkeep
+ create mode 100644 06/exercise_01/img/box1.jpg
+ create mode 100644 06/exercise_01/img/box2.jpg
+ create mode 100644 06/exercise_01/img/box3.jpg
+ create mode 100644 06/exercise_01/img/box4.jpg
+ create mode 100644 06/exercise_01_answer/img/box1.jpg
+ create mode 100644 06/exercise_01_answer/img/box2.jpg
+ create mode 100644 06/exercise_01_answer/img/box3.jpg
+ create mode 100644 06/exercise_01_answer/img/box4.jpg
+ create mode 100644 06/exercise_01_answer/index.html
+ create mode 100644 06/exercise_01_answer/style.css
+ create mode 100644 07/README.md
+ create mode 100644 07/exercise_01/.gitkeep
+ create mode 100644 07/exercise_01/img/mv.jpg
+ create mode 100644 07/exercise_01/img/wc-logo.png
+ create mode 100644 07/exercise_01/img/wcc-logo.png
+ create mode 100644 07/exercise_01/img/wcp-logo.png
+ create mode 100644 07/exercise_01/img/wcw-logo.png
+ create mode 100644 07/exercise_01_answer/img/mv.jpg
+ create mode 100644 07/exercise_01_answer/img/wc-logo.png
+ create mode 100644 07/exercise_01_answer/img/wcc-logo.png
+ create mode 100644 07/exercise_01_answer/img/wcp-logo.png
+ create mode 100644 07/exercise_01_answer/img/wcw-logo.png
+ create mode 100644 07/exercise_01_answer/index.html
+ create mode 100644 07/exercise_01_answer/style.css
+ create mode 100644 08/README.md
+ create mode 100644 08/exercise_01/.gitkeep
+ create mode 100644 08/exercise_01_answer/index.html
+ create mode 100644 08/exercise_01_answer/style.css
+ create mode 100644 09/README.md
+ create mode 100644 09/exercise_01/.gitkeep
+ create mode 100644 09/exercise_01/img/flow01.png
+ create mode 100644 09/exercise_01/img/flow02.png
+ create mode 100644 09/exercise_01/img/flow03.png
+ create mode 100644 09/exercise_01_answer/img/flow01.png
+ create mode 100644 09/exercise_01_answer/img/flow02.png
+ create mode 100644 09/exercise_01_answer/img/flow03.png
+ create mode 100644 09/exercise_01_answer/index.html
+ create mode 100644 09/exercise_01_answer/style.css
+ create mode 100644 10/README.md
+ create mode 100644 10/exercise_01/.gitkeep
+ create mode 100644 10/exercise_01/img/flow01.png
+ create mode 100644 10/exercise_01/img/flow02.png
+ create mode 100644 10/exercise_01/img/flow03.png
+ create mode 100644 README.md
+ create mode 100644 continuous_exercise/.gitkeep
+ create mode 100644 flex/README.md
+ create mode 100644 flex/exercise_01/.gitkeep
+ create mode 100644 flex/exercise_01_answer/index.html
+ create mode 100644 flex/exercise_01_answer/style.css
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git log
+commit 639421b538f3bc745a05a505e772ffb9468448f8 (HEAD -> master)
+Author: yamada4649 <ryuki.yamada4649@gmail.com>
+Date:   Tue Nov 3 23:39:20 2020 +0900
+
+    first-ii
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git remote origin https://github.com/yamada4649/git-you.git
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git remote add origin https://github.com/yamada4649/git-you.git
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git push origin master
+Enumerating objects: 80, done.
+Counting objects: 100% (80/80), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (71/71), done.
+Writing objects: 100% (80/80), 4.07 MiB | 2.02 MiB/s, done.
+Total 80 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/yamada4649/git-you.git
+ * [new branch]      master -> master
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git branch 02_exwew
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git checkout 02exwew
+error: pathspec '02exwew' did not match any file(s) known to git
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (master)
+$ git checkout 02_exwew
+Switched to branch '02_exwew'
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git add .
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git status
+On branch 02_exwew
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "02/exercise_01/\347\204\241\351\241\214.png"
+        new file:   "02/exercise_01/\357\274\223\351\200\261\345\240\261.png"
+
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git commit -m "add file"
+[02_exwew 2d7e05e] add file
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "02/exercise_01/\347\204\241\351\241\214.png"
+ create mode 100644 "02/exercise_01/\357\274\223\351\200\261\345\240\261.png"
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git status
+On branch 02_exwew
+nothing to commit, working tree clean
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git push origin 02_exew
+error: src refspec 02_exew does not match any
+error: failed to push some refs to 'https://github.com/yamada4649/git-you.git'
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git push -u origin 02_exew
+error: src refspec 02_exew does not match any
+error: failed to push some refs to 'https://github.com/yamada4649/git-you.git'
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git push -u origin 02_exwew
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 59.12 KiB | 6.57 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for '02_exwew' on GitHub by visiting:
+remote:      https://github.com/yamada4649/git-you/pull/new/02_exwew
+remote:
+To https://github.com/yamada4649/git-you.git
+ * [new branch]      02_exwew -> 02_exwew
+Branch '02_exwew' set up to track remote branch '02_exwew' from 'origin'.
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git branch 03_huhufe
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git branch
+* 02_exwew
+  03_huhufe
+  master
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (02_exwew)
+$ git checkout 03_huhufe
+Switched to branch '03_huhufe'
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (03_huhufe)
+$ git add .
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (03_huhufe)
+$ git status
+On branch 03_huhufe
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "03/exercise_01/\357\274\222\351\200\261\345\240\261.png"
+
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (03_huhufe)
+$ git commit -m "first commit"
+[03_huhufe a161c87] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "03/exercise_01/\357\274\222\351\200\261\345\240\261.png"
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (03_huhufe)
+$ git push origin master
+To https://github.com/yamada4649/git-you.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/yamada4649/git-you.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (03_huhufe)
+$ git push origin 03_huhufe
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 25.26 KiB | 6.32 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for '03_huhufe' on GitHub by visiting:
+remote:      https://github.com/yamada4649/git-you/pull/new/03_huhufe
+remote:
+To https://github.com/yamada4649/git-you.git
+ * [new branch]      03_huhufe -> 03_huhufe
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (03_huhufe)
+$ git remote -v
+origin  https://github.com/yamada4649/git-you.git (fetch)
+origin  https://github.com/yamada4649/git-you.git (push)
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/01-html-css-assignment-chappy-mano-master (03_huhufe)
+$ cd ..
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop ((v0.5))
+$ mkdir tuuuu
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop ((v0.5))
+$ cd tuuuu
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu ((v0.5))
+$ git init
+Initialized empty Git repository in C:/Users/yamadaryuki/Desktop/tuuuu/.git/
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git remote add origin ^C
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git remote add origin  https://github.com/yamada4649/git-you.git
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git remote -v
+origin  https://github.com/yamada4649/git-you.git (fetch)
+origin  https://github.com/yamada4649/git-you.git (push)
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ touch rrrrr
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ ls
+rrrrr
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git add .
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   rrrrr
+
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git commit -m "first"
+[master (root-commit) 42f724c] first
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 rrrrr
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git log
+commit 42f724cc13313e3b1ea6367251eda7727840671b (HEAD -> master)
+Author: yamada4649 <ryuki.yamada4649@gmail.com>
+Date:   Wed Nov 4 00:09:56 2020 +0900
+
+    first
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git push origin master
+To https://github.com/yamada4649/git-you.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/yamada4649/git-you.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git log
+commit 42f724cc13313e3b1ea6367251eda7727840671b (HEAD -> master)
+Author: yamada4649 <ryuki.yamada4649@gmail.com>
+Date:   Wed Nov 4 00:09:56 2020 +0900
+
+    first
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git update-ref -d HEAD
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git branch 02
+fatal: Not a valid object name: 'master'.
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (master)
+$ git checkout -b 03_ec
+Switched to a new branch '03_ec'
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (03_ec)
+$ touch fieee
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (03_ec)
+$ git add .
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (03_ec)
+$ git commit -m "first"
+[03_ec (root-commit) bb4bdbe] first
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fieee
+ create mode 100644 rrrrr
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (03_ec)
+$ git push origin 03_ec
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for '03_ec' on GitHub by visiting:
+remote:      https://github.com/yamada4649/git-you/pull/new/03_ec
+remote:
+To https://github.com/yamada4649/git-you.git
+ * [new branch]      03_ec -> 03_ec
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (03_ec)
+$ git push --delete origin branch_name
+error: unable to delete 'branch_name': remote ref does not exist
+error: failed to push some refs to 'https://github.com/yamada4649/git-you.git'
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (03_ec)
+$ git push --delete origin 03_ec
+To https://github.com/yamada4649/git-you.git
+ - [deleted]         03_ec
+
+yamadaryuki@DESKTOP-C9EEV6P MINGW64 ~/Desktop/tuuuu (03_ec)
+$
